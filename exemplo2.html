@@ -6,21 +6,43 @@
     <title> BOX MODEL</title>
     <style media="screen">
 
-        #elem-1 {
-          width: 200px;
-          border: 2px solid;
-          border-color
-        }
+
+    #elem-1,#elem-2 {
+      box-sizing: border-box;
+    }
+
+    #elem-1 {
+      width: 350px;
+      border: 2px;
+      border-style: solid;
+      border-color: red;
+      text-align: center;
+      margin: auto;  /* 1° valor eh o top, 2° valor right, 3° valor bottom(inferior), 4° valor o left */
+      padding: 30px;
+      border-width: 10px 15px 5px 25px;
+      border-style: groove;
+    }
+
+
+    #elem-2 {
+      width: 150px;
+      border: 2px;
+      border-color: blue;
+      text-align: center;
+      border-width: 5px 2px 5px 10px;
+      border-style: ridge;
+      margin: 22px 0px 22px 130px;
+    }
     </style>
   </head>
   <body>
 
-    <p id="elem-1"> exemplo 1</p>
+    <p id="elem-1"> EXEMPLO 1</p>
 
 
 
-      <div class="">
-
+      <div id="elem-2">
+          EXEMPLO 2
       </div>
   </body>
 </html>
