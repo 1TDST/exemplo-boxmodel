@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clear</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <style media="screen">
+
+    /*
+      #elem-1,#elem-2{
+        box-sizing: border-box;
+      }
+   */
+      #elem-1{
+        width: 200px;
+        border: 2px solid rgb(237, 20, 91);
+        text-align: center;
+        clear: right;
+        margin: auto;
+      }
+
+      #elem-2{
+        width: 200px;
+      /*  border: 2px solid #0000ff; */
+        text-align: center;
+        border-style: solid;
+        border-width: 5px 0px 5px 0px;
+        border-top-color: #ff0000;
+        border-bottom-color: #00ff00;
+        float: right;
+      }
+
+    </style>
+
+  </head>
+  <body id="corpo">
+
+    <p id="elem-1">EXEMPLO-1</p>
+
+    <div id="elem-2">
+      EXEMPLO-2
+    </div>
+
+  </body>
+</html>
