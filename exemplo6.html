@@ -3,25 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>BOX MODEL</title>
+    <title>CLEAR</title>
 
     <style media="screen">
 
-      #elem-1,#elem-2{
+      body{
+        background-image: linear-gradient(0deg, #72b5d6 20%, #8c7171 30%, #935f92 50%);
+        background-repeat: no-repeat;
+        color: #fff;
+        height: 800px;
+      }
+
+    /*  #elem-1,#elem-2{
         box-sizing: border-box;
       }
+*/
 
       #elem-1{
         width: 150px;
         border: 2px solid #ff0000;
         text-align: center;
-        padding: 4px;
+        clear: both;
+        margin: auto;
       }
 
       #elem-2{
         width: 150px;
-        border: 2px solid #0000ff;
         text-align: center;
+        border: 2px solid #ff0000;
+        float: right;
+
       }
 
     </style>
